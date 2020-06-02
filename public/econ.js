@@ -1,4 +1,4 @@
-function showData1()
+function hmtldata()
 {
     const seasonT = Number(document.getElementById("year").value);
    fetch("/eco?year="+ seasonT)  
@@ -25,7 +25,7 @@ function showData1()
            type: "column"
          },
          title: {
-           text: `<b>D. Top Economical Bowlers in ${seasonT} season</b>`
+           text: `<b>Top Economical Bowlers in ${seasonT} season</b>`
          },
          subtitle: {
            text:
